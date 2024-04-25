@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* navbar style css */
+@media screen and (max-width: 1024px){
+  body {
+     .logoitem{
+      visibility: hidden;
+      }
+  }
+}
+
+  .hexagonone-container {
+    position: relative;
+    width: 240px; 
+    height: 250px; 
+    border: 2px solid #eee2e2;
+    background-color: #fcfbfb; 
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .hexagonone-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    object-fit: cover;
+    background-color: white;
+  }
+ 
+  @media screen and (min-width:1024px) {
+    body {
+      .hexagonhome-container {
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+      }
+      .hexagonhome-image  {
+        object-fit: cover;
+    }
+    }
+  }
+
+/* Project Planner style css */
+
+.tooltiptext{
+  visibility: hidden;
+  transition: opacity 0.5s ease;
+}
+
+.tooltiptext::before{
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.tooltip:hover .tooltiptext{
+  top:40px;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* about in aboutitems css styles */
+
+.overlay-carts {
+  transition: .5s ease;
+}
+
+.contact-carts:hover .overlay-carts {
+  opacity: 1;
+}
+
+.text-carts {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* navbar in css style  */
+
+.box {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+
+
+
