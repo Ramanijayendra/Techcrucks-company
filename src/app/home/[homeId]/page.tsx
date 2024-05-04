@@ -4,6 +4,8 @@ import React from "react";
 import boneimages from "/public/images/placeholder/1200x650.svg";
 import gallery from "/public/images/placeholder/900x1500.svg";
 import Footer from "@/components/footer/page";
+import Button from "@/components/button/page"
+
 
 function page() {
   return (
@@ -39,12 +41,10 @@ function page() {
                 <li className="text-orange-500">UX</li>
                 <li className="py-2">User Interface Design</li>
                 <li>Frontend Development</li>
-                <li className="py-2">Backend Development</li>
+                <li className="py-2">Backend Developmen t</li>
               </ul>
               <div className="mt-5">
-                <button className="bg-[#0071e2] hover:bg-[#24b4fb] text-white  py-2.5 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded">
-                  VIEW LIVE SITE
-                </button>
+                <Button title="VIEW LIVE SITE" />
               </div>
             </div>
           </div>

@@ -1,7 +1,5 @@
 import React from "react";
-
 import Techitem from "@/components/techitem/page";
-
 import Footer from "@/components/footer/page";
 
 function page() {

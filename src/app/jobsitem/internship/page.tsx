@@ -1,7 +1,9 @@
 import React from "react";
-import Footer from "../../../components/footer/page";
-import Shipmodal from "../../../components/internshipmodal/page";
-import Interns from "../../../components/interns/page";
+import Footer from "@/components/footer/page";
+import Shipmodal from "@/components/internshipmodal/page";
+import Interns from "@/components/interns/page";
+
+
 
 function page() {
   return (

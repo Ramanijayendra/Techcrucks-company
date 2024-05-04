@@ -2,7 +2,8 @@ import React from "react";
 import Footer from "../../../components/footer/page";
 import placeimg from "/public/images/placeholder/300x300.svg";
 import Image from "next/image";
-import UserexperienceIcons from "@/components/icons/userexperience";
+import Button from "@/components/button/page"
+
 
 function page() {
   return (
@@ -61,17 +62,35 @@ function page() {
                   <p className="py-4 text-gray-400">
                     Launch our project planner to get started.
                   </p>
-                  <button
-                    type="button"
-                    className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2.5 px-3 border-b-4 border-blue-700 hover:border-blue-500 rounded"
-                  >
-                    LAUNCH IT
-                  </button>
+                  <Button title=" LAUNCH IT" />
+                 
                 </div>
                 <div className="mt-4 lg:order-2 order-1">
                   <div className="flex justify-center">
-                    <p className="rounded-tl-[20px] rounded-br-[20px] p-9 bg-[#b9b5b5] flex justify-center items-center">
-                      <UserexperienceIcons className="w-14 h-14 hover:fill-white" />{" "}
+                    <p className="rounded-tl-[20px] rounded-br-[20px] p-9 bg-[#dedede] flex justify-center items-center">
+                      <svg
+                        className="w-16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M3 12C3 4.5885 4.5885 3 12 3C19.4115 3 21 4.5885 21 12C21 19.4115 19.4115 21 12 21C4.5885 21 3 19.4115 3 12Z"
+                          stroke="#494c4e"
+                          strokeWidth="2"
+                        />
+                        <path
+                          d="M15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10Z"
+                          stroke="#494c4e"
+                          strokeWidth="2"
+                        />
+                        <path
+                          d="M6 19C6.63819 16.6928 8.27998 16 12 16C15.72 16 17.3618 16.6425 18 18.9497"
+                          stroke="#494c4e"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                        />
+                      </svg>
                     </p>
                   </div>
                 </div>

@@ -5,6 +5,7 @@ import { Modal } from "react-responsive-modal";
 import Image from "next/image";
 import placeusers from "/public/images/placeholder/user.jpg";
 import Link from "next/link";
+import Button from "@/components/button/page"
 
 function page(props: { id: number }) {
   const [open, setOpen] = useState(false);
@@ -58,12 +59,8 @@ function page(props: { id: number }) {
                   many of our pure development clients.
                 </li>
                 <li className="flex flex-col lg:flex-row  gap-5">
-                  <button className="bg-[#0071e2] hover:bg-[#24b4fb] text-white rounded p-2 cursor-pointer">
-                    Follow Dan on Twitter
-                  </button>
-                  <button className="bg-[#0071e2] hover:bg-[#24b4fb] text-white rounded  p-2 cursor-pointer">
-                    Visit Dan's website
-                  </button>
+                  <Button title="Follow Dan on Twitter"/>
+                  <Button title="Visit Dan's website"/>
                 </li>
               </ul>
             </div>

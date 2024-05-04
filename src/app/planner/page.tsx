@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
 import Footer from "@/components/footer/page";
+import Plannerbutton from "@/components/plannerbutton/page";
+import Lgbutton from "@/components/lgbutton/page";
+import Button from "@/components/button/page";
 
 function page() {
   // const handlesubmit = (event) => {
@@ -26,7 +29,7 @@ function page() {
         </section>
 
         <section>
-          <form >
+          <form>
             <div className="flex justify-center">
               <div className="w-8/12 flex flex-col justify-center gap-5 mt-6 lg:flex-row">
                 <input
@@ -60,8 +63,6 @@ function page() {
                 />
               </div>
             </div>
-
-            
           </form>
         </section>
 
@@ -72,39 +73,30 @@ function page() {
 
           <div className="flex flex-col gap-6 justify-center items-center py-4 lg:flex-row p-6">
             <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
+              <span className="tooltiptext absolute bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700  text-white opacity-0 ">
                 <div className="p-4 text-[17px] ">
-                  <p> From a simple site to a complex e-commerce platform</p>
+                  <p>From a simple site to a complex e-commerce platform</p>
                 </div>
               </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                WEBSITE
-              </button>
+              <Lgbutton title="WEBSITE" />
             </div>
 
-            <div className="tooltip text-center w-72 relative cursor-pointer hover:z-20">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
+            <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
+              <span className="tooltiptext absolute bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700  text-white opacity-0 ">
                 <div className="p-4 text-[17px] ">
                   <p>Looking to build a larger scale web application?</p>
                 </div>
               </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                APPLICATION
-              </button>
+              <Lgbutton title="APPLICATION" />
             </div>
 
-            <div className="tooltip text-center w-72 relative cursor-pointer hover:z-20">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
+            <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
+              <span className="tooltiptext absolute bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700  text-white opacity-0 ">
                 <div className="p-4 text-[17px] ">
-                  <p> We like to be challenged - what have you got for us?</p>
+                  <p>We like to be challenged - what have you got for us?</p>
                 </div>
               </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                SOMETHING ELSE
-              </button>
+              <Lgbutton title=" SOMETHING ELSE" />
             </div>
           </div>
         </section>
@@ -126,104 +118,8 @@ function page() {
           <p className="text-center text-xl text-gray-700 mt-16">
             WHAT DO YOU NEED?
           </p>
-        </section>
 
-        <section>
-          <div className="flex flex-col gap-6 justify-center items-center py-2 lg:flex-row mt-8 p-6">
-            <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
-                <div className="p-4 text-[17px] ">
-                  <p>
-                    Taking a simple idea through to a finished project by
-                    building a solid business foundation.
-                  </p>
-                </div>
-              </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                STRATEGY
-              </button>
-            </div>
-
-            <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
-                <div className="p-4 text-[17px] ">
-                  <p>
-                    Taking a simple idea through to a finished project by
-                    building a solid business foundation.
-                  </p>
-                </div>
-              </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                UX
-              </button>
-            </div>
-
-            <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
-                <div className="p-4 text-[17px] ">
-                  <p>
-                    Taking a simple idea through to a finished project by
-                    building a solid business foundation.
-                  </p>
-                </div>
-              </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                DESING
-              </button>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div className="flex flex-col gap-6 justify-center items-center py-2 lg:flex-row p-6">
-            <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
-                <div className="p-4 text-[17px] ">
-                  <p>
-                    Taking a simple idea through to a finished project by
-                    building a solid business foundation.
-                  </p>
-                </div>
-              </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                DEVELOPMENT
-              </button>
-            </div>
-
-            <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
-                <div className="p-4 text-[17px] ">
-                  <p>
-                    Taking a simple idea through to a finished project by
-                    building a solid business foundation.
-                  </p>
-                </div>
-              </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                CMS IMPLEMENTATION
-              </button>
-            </div>
-
-            <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 ">
-              <span className="tooltiptext absolute bg-[#24b4fb]  text-white opacity-0 ">
-                <div className="p-4 text-[17px] ">
-                  <p>
-                    Taking a simple idea through to a finished project by
-                    building a solid business foundation.
-                  </p>
-                </div>
-              </span>
-              <button className="p-3 bg-[#0071e2] w-72 rounded text-white hover:bg-[#24b4fb] ">
-                {" "}
-                NOT SURE
-              </button>
-            </div>
-          </div>
+          <Plannerbutton />
         </section>
 
         <section>
@@ -271,10 +167,7 @@ function page() {
                 </select>
               </form>
             </div>
-
-            <button className="p-3 bg-[#0071e2] lg: w-72  rounded text-white hover:bg-[#24b4fb]">
-              No huge rush
-            </button>
+            <Lgbutton title=" No huge rush" />
           </div>
         </section>
 
@@ -327,9 +220,7 @@ function page() {
               </form>
             </div>
 
-            <button className="p-3 bg-[#0071e2] lg: w-72  rounded text-white hover:bg-[#24b4fb]">
-              When it's done!
-            </button>
+            <Lgbutton title=" When it's done!" />
           </div>
         </section>
 
@@ -337,31 +228,16 @@ function page() {
           <p className="text-center text-xl text-gray-700 mt-16">
             LIKELY BUDGET
           </p>
-
+          ̥
           <div className="flex flex-col gap-6 justify-center items-center py-8 lg:flex-row p-6 ">
-            <button className="p-3 bg-[#0071e2] lg:w-52 w-full  rounded text-white hover:bg-[#24b4fb]">
-              £20,000 - £30,000
-            </button>
-            <button className="p-3 bg-[#0071e2] lg:w-52 w-full  rounded text-white hover:bg-[#24b4fb]">
-              £30,000 - £50,000
-            </button>
-            <button className="p-3 bg-[#0071e2] lg:w-52 w-full  rounded text-white hover:bg-[#24b4fb]">
-              £50,000 - £75,000
-            </button>
-            <button className="p-3 bg-[#0071e2] lg:w-52 w-full  rounded text-white hover:bg-[#24b4fb]">
-              Over £75,000
-            </button>
+            <Button title="£20,000 - £30,000" />
+            <Button title="£30,000 - £50,000" />
+            <Button title="£50,000 - £75,000" />
+            <Button title="Over - £75,000" />
           </div>
-
           <p className="text-center text-xl text-gray-700 mt-16">FINISHED?</p>
-
           <div className="flex flex-col gap-6 justify-center py-8 lg:flex-row mb-20 p-6 ">
-            <button
-              type="button"
-              className="bg-[#0071e2] hover:bg-[#24b4fb] text-white  py-2.5 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded"
-            >
-              Yep, submit this
-            </button>
+            <Lgbutton title="Yep, submit this" />
           </div>
           <Footer />
         </section>

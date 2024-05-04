@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "@/components/footer/page";
 import Link from "next/link";
 import Jobsgallery from "@/components/jobsgallery/page";
+import Button from "@/components/button/page";
 
 function page() {
   return (
@@ -82,11 +83,8 @@ function page() {
             </div>
 
             <div className=" text-center py-6">
-              <Link
-                href="/jobsitem/internship"
-                className="bg-[#0071e2] hover:bg-[#24b4fb] text-white  py-3 px-5 border-b-4 border-blue-700 hover:border-blue-500 rounded"
-              >
-                FIND OUT MORE
+              <Link href="jobsitem/internship">
+                <Button title=" FIND OUT MORE" />
               </Link>
             </div>
           </div>

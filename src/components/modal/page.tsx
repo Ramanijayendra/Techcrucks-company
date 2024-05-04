@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-
-
 import Hexagonabout from "@/components/hexagonabout/page";
 
 export const modaldata = [

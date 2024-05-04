@@ -1,8 +1,9 @@
 import React from "react";
 import Footer from "@/components/footer/page";
-import DesingIcons from "@/components/icons/desing";
 import placeimg from "/public/images/placeholder/300x300.svg";
 import Image from "next/image";
+import Button from "@/components/button/page"
+
 
 function page() {
   return (
@@ -86,17 +87,45 @@ function page() {
                   <p className="py-4 text-gray-400">
                     Launch our project planner to get started.
                   </p>
-                  <button
-                    type="button"
-                    className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2.5 px-3 border-b-4 border-blue-700 hover:border-blue-500 rounded"
-                  >
-                    LAUNCH IT
-                  </button>
+                  <Button  title="LAUNCH IT" />
+                  
                 </div>
                 <div className="mt-4 lg:order-2 order-1">
                   <div className="flex justify-center">
-                    <p className="rounded-tl-[20px] rounded-br-[20px] p-9 bg-[#b9b5b5] flex justify-center items-center">
-                      <DesingIcons className="w-14 h-14 hover:fill-white" />{" "}
+                    <p className="rounded-tl-[20px] rounded-br-[20px] p-9 bg-[#dedede] flex justify-center items-center">
+                      <svg
+                        fill="#494c4e"
+                        className="w-14"
+                        version="1.1"
+                        id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512 512"
+                        xmlSpace="preserve"
+                      >
+                        <g>
+                          <g>
+                            <g>
+                              <path
+                                d="M472.178,34.62H39.822C17.864,34.62,0,52.485,0,74.442c0,17.955,0,345.233,0,363.115
+				c0,21.958,17.864,39.822,39.822,39.822h432.356c21.958,0,39.822-17.864,39.822-39.822c0-17.89,0-345.165,0-363.115
+				C512,52.485,494.136,34.62,472.178,34.62z M477.867,437.557c0,3.137-2.552,5.689-5.689,5.689H39.822
+				c-3.137,0-5.689-2.552-5.689-5.689V153.839h443.733V437.557z M477.867,119.706H34.133V74.442c0-3.137,2.552-5.689,5.689-5.689
+				h432.356c3.137,0,5.689,2.552,5.689,5.689V119.706z"
+                              />
+                              <circle cx="71.805" cy="94.231" r="12.836" />
+                              <circle cx="112.959" cy="94.231" r="12.836" />
+                              <circle cx="154.112" cy="94.231" r="12.836" />
+                              <path
+                                d="M189.914,419.105l66.082-51.274l66.089,51.274c11.193,8.685,27.527,0.683,27.527-13.485V191.464
+				c0-9.425-7.641-17.067-17.067-17.067H179.453c-9.425,0-17.067,7.641-17.067,17.067v214.157
+				C162.386,419.882,178.796,427.732,189.914,419.105z M196.519,208.531h118.961v29.687H196.519V208.531z M196.518,272.352H315.48
+				v98.428l-49.022-38.035c-6.155-4.776-14.766-4.776-20.924,0.001l-49.015,38.031V272.352z"
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
                     </p>
                   </div>
                 </div>

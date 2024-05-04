@@ -9,7 +9,7 @@ function page(props: { id: number;  img: string }) {
         className="hexagonhome-container lg:relative lg:w-1/6 lg:h-64 lg:border-2 border-[#eee2e2] bg-[#fcfbfb]"
         key={props.id}
       >
-        <Link href={`/homeitem/${props.id}`}>
+        <Link href={`/home/${props.id}`}>
           <Image
             src={props.img}
             className="hexagonhome-image lg:absolute h-[100%] w-[100%] lg:bg-[white]"

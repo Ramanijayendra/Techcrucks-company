@@ -2,7 +2,8 @@ import React from "react";
 import Footer from "@/components/footer/page";
 import placeimg from "/public/images/placeholder/300x300.svg";
 import Image from "next/image";
-import StrategyIcons from "@/components/icons/strategy";
+import Button from "@/components/button/page"
+
 
 function page() {
   return (
@@ -76,17 +77,32 @@ function page() {
                   <p className="py-4 text-gray-400">
                     Launch our project planner to get started.
                   </p>
-                  <button
-                    type="button"
-                    className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2.5 px-3 border-b-4 border-blue-700 hover:border-blue-500 rounded"
-                  >
-                    LAUNCH IT
-                  </button>
+                  <Button title="LAUNCH IT" />
                 </div>
                 <div className="mt-4 lg:order-2 order-1">
                   <div className="flex justify-center">
-                    <p className="rounded-tl-[20px] rounded-br-[20px] p-9 bg-[#b9b5b5] flex justify-center items-center">
-                      <StrategyIcons className="w-14 h-14 " />{" "}
+                    <p className="rounded-tl-[20px] rounded-br-[20px] p-9 bg-[#dedede] flex justify-center items-center">
+                      <svg
+                        className="w-16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 22H14M5 9C5 5.13401 8.13401 2 12 2C15.866 2 19 5.13401 19 9C19 11.3787 17.8135 13.4694 16 14.7344L15.4582 17.3004C15.3097 18.2778 14.4695 19 13.4809 19H10.5191C9.53052 19 8.69027 18.2778 8.54177 17.3004L8 14.7453C6.18652 13.4804 5 11.3787 5 9Z"
+                          stroke="#494c4e"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                        <path
+                          d="M8 15H16"
+                          stroke="#494c4e"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
                     </p>
                   </div>
                 </div>
