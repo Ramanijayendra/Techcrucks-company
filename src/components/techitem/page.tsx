@@ -4,7 +4,12 @@ export const Contactdata = [
   {
     id: 1,
     logo: (
-      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" id="email">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 64 64"
+        className="w-14"
+        id="email"
+      >
         <path
           fillRule="evenodd"
           d="M26.91 7a6.982 6.982 0 0 0-5.742 3H16.91c-1.1 0-2 .9-2 2v4c0 1.1.9 2 2 2h3v2h-1.5a.5.5 0 0 0-.5.5V22c0 1.1.9 2 2 2h10v1H13.201a2.3 2.3 0 0 0-2.29 2.297v23.732h-2.5a.5.5 0 0 0-.5.5A5.47 5.47 0 0 0 13.382 57h39.054a5.47 5.47 0 0 0 5.473-5.47.5.5 0 0 0-.5-.5h-2.5V27.296A2.302 2.302 0 0 0 52.617 25H38.91v-1h11c1.1 0 2-.9 2-2v-8c0-3.87-3.13-7-7-7h-18zm0 1c3.333 0 6 2.667 6 6v6h-12v-2h4c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2h-2.469a5.967 5.967 0 0 1 4.47-2zm3.596 0H44.91c3.333 0 6 2.667 6 6v6h-17v-6a6.986 6.986 0 0 0-3.404-6zM16.91 11h8c.008 0 .014.004.022.004l-4.022 2.414-4.023-2.414c.008 0 .015-.004.023-.004zm-.928.627 4.67 2.803a.5.5 0 0 0 .514 0l4.672-2.803c.045.115.072.24.072.373v4c0 .563-.437 1-1 1h-8c-.562 0-1-.437-1-1v-4c0-.133.028-.258.072-.373zM5 13.93v1h1v-1H5zm2 0v1h4v-1H7zm6 0v1h1v-1h-1zm-5 2v1h1v-1H8zm2 0v1h3v-1h-3zM18.91 21h1v.002h1V21h6v.002h6V22c0 .563-.437 1-1 1h-1.424a.5.5 0 0 0-.084-.006.5.5 0 0 0-.074.006H19.91c-.563 0-1-.437-1-1v-1zm15 .002h17V22c0 .563-.437 1-1 1H38.486a.5.5 0 0 0-.084-.006.5.5 0 0 0-.074.006h-2.842a.5.5 0 0 0-.084-.006.5.5 0 0 0-.074.006h-1.7c.174-.296.282-.634.282-1v-.998zm-3 2.998h4v8.639a.5.5 0 1 0 1 0V24h2v11.658a.5.5 0 1 0 1 0v-6.642h12v19h-2.892v1h3.392a.5.5 0 0 0 .5-.5v-20a.5.5 0 0 0-.5-.5h-12.5V26h13.707c.724 0 1.293.57 1.293 1.297v23.732h-42V27.297A1.28 1.28 0 0 1 13.201 26h16.71v2.016h-15.5a.5.5 0 0 0-.5.5v20a.5.5 0 0 0 .5.5h28.304v-1H14.91v-19h15v6.58a.5.5 0 1 0 1 0V24zm4.492 9.557a.5.5 0 0 0-.492.507v2.684a.5.5 0 1 0 1 0v-2.684a.5.5 0 0 0-.508-.507zm3 2.904a.5.5 0 0 0-.492.508v1.533a.5.5 0 1 0 1 0v-1.533a.5.5 0 0 0-.508-.508zm-8 .533a.5.5 0 0 0-.492.506v1a.5.5 0 1 0 1 0v-1a.5.5 0 0 0-.508-.506zm5 .596a.5.5 0 0 0-.492.508v.65a.5.5 0 1 0 1 0v-.65a.5.5 0 0 0-.508-.508zm0 1.972a.5.5 0 0 0-.492.508v1.678a.5.5 0 1 0 1 0V40.07a.5.5 0 0 0-.508-.508zm-5 .084a.5.5 0 0 0-.492.508v1.348a.5.5 0 1 0 1 0v-1.348a.5.5 0 0 0-.508-.508zM9.01 52.03h18.9v.828c0 .996.796 1.827 1.785 1.827h6.428c.99 0 1.787-.831 1.787-1.827v-.828h18.9C56.555 54.264 54.748 56 52.438 56H13.383c-2.31 0-4.117-1.736-4.373-3.97zm19.9 0h8v.828c0 .476-.352.827-.787.827h-6.428c-.435 0-.785-.351-.785-.827v-.828z"
@@ -43,7 +48,7 @@ export const Contactdata = [
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 69.16 69.16"
         id="instagram"
-        className="w-12"
+        className="w-14"
       >
         <g>
           <g>
@@ -98,17 +103,17 @@ export const Contactdata = [
 
 function page() {
   return (
-    <div className="container">
-      <div className="flex flex-col gap-10 p-8 lg:flex-row lg:justify-center lg:gap-10">
+    <section>
+      <div className="flex flex-col  gap-6 p-8 lg:flex-row justify-center items-center ">
         {Contactdata.map((value) => {
           return (
-            <div className="text-center" key={value.id}>
-              <p className="flex justify-center items-center" >
-                <span className="w-32 h-32  rounded-full border-2 border-[#adadad] flex justify-center items-center hover:bg-[#adadad] hover:text-white">
+            <div className="text-center w-full lg:w-1/6" key={value.id}>
+              <p className="flex justify-center items-center">
+                <span className="rounded-tl-[20px] rounded-br-[20px] p-9 flex justify-center items-center bg-[#d7d0d0] ">
                   {value.logo}
                 </span>
               </p>
-              <p className="text-red-500 py-4 text-[17px]">{value.title}</p>
+              <p className="text-black py-4 text-[17px]">{value.title}</p>
               <p>
                 <span className="text-[15px] text-gray-500">{value.text}</span>
               </p>
@@ -116,7 +121,7 @@ function page() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
 

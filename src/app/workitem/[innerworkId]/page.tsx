@@ -20,7 +20,7 @@ function page() {
             </div>
 
             <div className="lg:w-3/12 lg:text-start text-center text-gray-400 ">
-              <h1 className="text-3xl font-bold mb-5 text-black">home item</h1>
+              <h1 className="text-3xl font-bold mb-5 text-black">Work item</h1>
               <p className="mb-5">
                 Growing from their initial roots in Southampton 7Bone have grown
                 to a number of sites across the UK. They make wonderful burgers

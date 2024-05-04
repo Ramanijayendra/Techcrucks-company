@@ -2,14 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 *{
     margin: 0;
     padding: 0;
 }
-
-
 
 /* navbar style css */
 @media screen and (max-width: 1024px){
@@ -83,16 +79,24 @@
   -ms-transform: translate(-50%, -50%);
 }
 
-
-
-
-
-/* navbar in css style  */
-
-.box {
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+/* styles.module.css */
+.object-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
+.object {
+  width: 15%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.object img {
+  width: 100%;
+}
+
 
 
 

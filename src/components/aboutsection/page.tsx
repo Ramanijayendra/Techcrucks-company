@@ -456,15 +456,15 @@ l-0.00271-0.95656c-0.00375-1.32348,0.92588-2.94097,2.07765-3.60595L37.69701,2.99
 function page() {
   return (
     <>
-      <div className="container">
+      <section>
         <div className="py-10 flex flex-col justify-center items-center gap-10 p-6  lg:flex-row flex-wrap">
           {Aboutdata.map((value) => {
             return (
-              <div className="text-center lg:w-1/5 mt-5 ">
+              <div className="text-center  lg:w-1/5   rounded mt-5 " key={value.id}>
                 <Link href={value.linkdata}>
                   <div className="flex justify-center" key={value.id}>
-                    <p className="w-32 h-32 rounded-full border-2 border-[#ee6557] hover:bg-[#ee6557] flex justify-center items-center">
-                      <p className="w-14 h-14 hover:fill-white">{value.logo}</p>
+                    <p className="rounded-tl-[20px] rounded-br-[20px] relative w-32 h-32 bg-[#dedede] flex justify-center items-center">
+                    {value.logo}
                     </p>
                   </div>
                   <div className="mt-3">
@@ -473,7 +473,10 @@ function page() {
                       {value.text}
                     </p>
                   </div>
-                  <button type="button" className="inline-flex justify-center rounded-md  px-4 py-3 text-sm font-semibold text-white shadow  bg-[#ada9a9] hover:bg-[#ee6557]  ">
+                  <button
+                    type="button"
+                    className="bg-[#0071e2] hover:bg-[#24b4fb] text-white  py-2.5 px-3 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+                  >
                     {value.btn}
                   </button>
                 </Link>
@@ -481,7 +484,7 @@ function page() {
             );
           })}
         </div>
-      </div>
+      </section>
     </>
   );
 }

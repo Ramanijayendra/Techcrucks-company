@@ -296,15 +296,15 @@ function page() {
               <Link href="" onClick={onOpenModal}>
                 <div className="text-center ">
                   <div className="flex justify-center">
-                    <p className="w-32 h-32 rounded-full border-2 border-[#ee6557] hover:bg-[#ee6557] flex justify-center items-center">
-                     <p className="hover:fill-[#fff]">  {value.logo}</p>
+                    <p className="rounded-tl-[20px] rounded-br-[20px] p-9 bg-[#e7e7e7] flex justify-center items-center">
+                     {value.logo}
                     </p>
                   </div>
                   <div className="mt-3">
                     <p className="text-[14px]">{value.title}</p>
                     <p className="py-4">{value.text}</p>
                   </div>
-                  <button className="p-3 w-44 bg-[#c5c5c5] rounded text-white hover:bg-[#16a6b6] ">
+                  <button className="bg-[#0071e2] hover:bg-[#24b4fb] text-white  py-2.5 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                     {value.btn}
                   </button>
                 </div>
@@ -333,104 +333,6 @@ function page() {
             </div>
           );
         })}
-
-        {/* <div className="text-center lg:w-1/5  lg:h-96">
-          <Link href="" onClick={onOpenModal}>
-            <div className="text-center">
-              <div className="flex justify-center">
-                <p className="w-32 h-32 rounded-full border-2 border-[#ee6557] hover:bg-[#ee6557] hover:text-white flex justify-center items-center">
-                  <IllustrationIcons className="w-14 h-14 hover:fill-white" />
-                </p>
-              </div>
-              <div className="mt-3">
-                <p className="text-[14px]"> A front-end developer</p>
-                <p className="py-4">
-                  You have experience building the sites with semantic
-                  structured HTML and clean CSS…
-                </p>
-              </div>
-              <button className="p-3 w-44 bg-[#c5c5c5] rounded text-white hover:bg-[#16a6b6]">
-                FIND OUT MORE
-              </button>
-            </div>
-          </Link>
-
-          <Modal open={open} onClose={onCloseModal} center>
-            <div className=" flex flex-col lg:flex-row gap-8 p-5 bg-slate-200">
-              <div className="lg:w-[700px] h-96 ">
-                <ul>
-                  <li className="text-[19px] mb-2 ">FRONT-END DEVELOPER</li>
-                  <li className="text-[16px] mb-4 ">MAKING IT ALL WORK </li>
-                  <li className=" mb-3">
-                    You have experience building the sites with semantic
-                    structured HTML and clean CSS with some examples online to
-                    prove it.
-                  </li>
-                  <li className=" mb-3">
-                    You can ideally write Sass over vanilla CSS. If you write
-                    Javascript then we mean really write it rather than using a
-                    plugin. You can also understand git and have browser testing
-                    experience.
-                  </li>
-                </ul>
-              </div>
-              <div className="mt-10">
-                <Image src={placeimg} className="w-full" alt="homeimages" />
-              </div>
-            </div>
-          </Modal>
-        </div>
-
-        <div className="text-center lg:w-1/5  lg:h-96">
-          <Link href="" onClick={onOpenModal}>
-            <div className="text-center  ">
-              <div className="flex justify-center">
-                <p className="w-32 h-32 rounded-full border-2 border-[#ee6557] hover:bg-[#ee6557] hover:text-white flex justify-center items-center">
-                  <DesingIcons className="w-14 h-14 hover:fill-white" />
-                </p>
-              </div>
-              <div className="mt-3">
-                <p className="text-[14px]"> A back-end developer</p>
-                <p className="py-4">
-                  You have built sites that are actually live and work well.
-                  Ruby, Postgres, Docker…
-                </p>
-              </div>
-              <button className=" p-3 w-44 bg-[#c5c5c5] rounded text-white hover:bg-[#16a6b6]">
-                FIND OUT MORE
-              </button>
-            </div>
-          </Link>
-
-          <Modal open={open} onClose={onCloseModal} center>
-            <div className=" flex flex-col lg:flex-row gap-8 p-5 bg-slate-200">
-              <div className="lg:w-[700px] h-96 ">
-                <ul>
-                  <li className="text-[19px] mb-2 ">BACK-END DEVELOPER </li>
-                  <li className="text-[16px] mb-4 ">MAKING IT ALL WORK</li>
-                  <li className=" mb-3">
-                    You have built sites that are actually live and work well.
-                    PHP, MySQL and Apache are good friends that you have had
-                    some fun with. Ideally you have some history with Javascript
-                    too.
-                  </li>
-                  <li className=" mb-3">
-                    Experienced in database design, object oriented programming
-                    and front end coding he combines these with an eye for
-                    design and a love of photography.
-                  </li>
-                  <li className=" mb-5">
-                    You will understand version control and ideally our
-                    preference - git.
-                  </li>
-                </ul>
-              </div>
-              <div className="mt-10">
-                <Image src={placeimg} className="w-full" alt="homeimages" />
-              </div>
-            </div>
-          </Modal>
-        </div> */}
       </div>
     </div>
   );

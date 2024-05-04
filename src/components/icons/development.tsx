@@ -4,7 +4,7 @@ function DevelopmentIcons(props: React.SVGProps<SVGAElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      enable-background="new 0 0 67 67"
+      enableBackground="new 0 0 67 67"
       viewBox="0 0 67 67"
       id="web-development"
       {...props}

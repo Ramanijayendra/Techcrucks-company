@@ -1,15 +1,13 @@
 import React from "react";
-import Image from "next/image";
-
-import placeimg from "/public/images/placeholder/300x300.svg";
-
-import Footer from "../../components/footer/page";
+import Footer from "@/components/footer/page";
 import Link from "next/link";
+import Jobsgallery from "@/components/jobsgallery/page";
 
 function page() {
   return (
     <>
-        <div className="container">
+      <div className="container">
+        <section>
           <div className="text-center p-5  m-auto lg:w-7/12">
             <h1 className="text-5xl mb-10  font-bold">Work at techcrucks</h1>
             <p className="text-[23px] text-gray-500 font-normal ">
@@ -49,16 +47,14 @@ function page() {
               </p>
             </div>
           </div>
+        </section>
 
-         
-
+        <section>
           <div className="flex justify-center">
-          <div className="hexagonhome-container lg:relative w-[290px] h-[290px] lg:w-[245px] lg:h-[260px] lg:border-2 border-[#20999b] bg-[#20999b]">
-                <div className="hexagonhome-image text-white lg:absolute w-[100%] h-[100%]  lg:w-[100%] lg:h-[100%] lg:text-center bg-[#20999b] ">
+            <div className="hexagonhome-container lg:relative w-[290px] h-[290px] lg:w-[245px] lg:h-[260px] lg:border-2 border-[#20999b] bg-[#20999b]">
+              <div className="hexagonhome-image text-white lg:absolute w-[100%] h-[100%]  lg:w-[100%] lg:h-[100%] lg:text-center bg-[#20999b] ">
                 <div className="flex justify-center">
-                  <h1 className="mt-10 text-[16px]  py-3">
-                    NO AGENCIES EVER{" "}
-                  </h1>
+                  <h1 className="mt-10 text-[16px]  py-3">NO AGENCIES EVER </h1>
                 </div>
                 <div className="flex justify-center items-center mt-4">
                   <p className="border border-white w-20"></p>
@@ -68,11 +64,9 @@ function page() {
                     SERIOUSLY, DON'T EVEN BOTHER{" "}
                   </h1>
                 </div>
-
-                </div>
+              </div>
+            </div>
           </div>
-          </div>
-
 
           <div className=" mt-16">
             <div className="flex justify-center ">
@@ -88,82 +82,30 @@ function page() {
             </div>
 
             <div className=" text-center py-6">
-              <Link href="/jobsitem/internship" className="bg-[#ee6557] rounded p-3 text-white  hover:bg-[#000]">
+              <Link
+                href="/jobsitem/internship"
+                className="bg-[#0071e2] hover:bg-[#24b4fb] text-white  py-3 px-5 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+              >
                 FIND OUT MORE
               </Link>
             </div>
           </div>
+        </section>
 
+        <section>
           <div className="py-16">
             <div className="flex justify-center ">
               <p className="flex justify-center  border-t-2 border-gray-400 w-28"></p>
             </div>
-            <p className="text-center mt-6 text-2xl text-gray-500 mb-6">
-              BUFFALO SNAPS
+            <p className="text-center mt-6 text-2xl text-gray-500 mb-20">
+              TECHCRUCKS SNAPS
             </p>
-
-            <div className="flex flex-col gap-6  justify-center items-center lg:flex-row  ">
-              <div className="hexagonhome-container lg:relative lg:w-[245px] lg:h-[260px] lg:border-2 border-[#eee2e2] bg-[#fcfbfb]">
-                <Image
-                  src={placeimg}
-                  className="hexagonhome-image lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
-                  alt="homeimages"
-                />
-              </div>
-
-              <div className="hexagonhome-container lg:relative lg:w-[245px] lg:h-[260px] lg:border-2 border-[#eee2e2] bg-[#fcfbfb]">
-                <Image
-                  src={placeimg}
-                  className="hexagonhome-image lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
-                  alt="homeimages"
-                />
-              </div>
-
-              <div className="hexagonhome-container lg:relative lg:w-[245px] lg:h-[260px] lg:border-2 border-[#eee2e2] bg-[#fcfbfb]">
-                <Image
-                  src={placeimg}
-                  className="hexagonhome-image  lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
-                  alt="homeimages"
-                />
-              </div>
-
-              <div className="hexagonhome-container lg:relative lg:w-[245px] lg:h-[260px] lg:border-2 border-[#eee2e2] bg-[#fcfbfb]">
-                <Image
-                  src={placeimg}
-                  className="hexagonhome-image lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
-                  alt="homeimages"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-col gap-6  justify-center items-center lg:flex-row lg:mt-[-40px] mt-8  ">
-              <div className="hexagonhome-container lg:relative lg:w-[245px] lg:h-[260px] lg:border-2 border-[#eee2e2] bg-[#fcfbfb]">
-                <Image
-                  src={placeimg}
-                  className="hexagonhome-image  lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
-                  alt="homeimages"
-                />
-              </div>
-
-              <div className="hexagonhome-container lg:relative lg:w-[245px] lg:h-[260px] lg:border-2 border-[#eee2e2] bg-[#fcfbfb]">
-                <Image
-                  src={placeimg}
-                  className="hexagonhome-image  lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
-                  alt="homeimages"
-                />
-              </div>
-
-              <div className="hexagonhome-container  lg:relative lg:w-[245px] lg:h-[260px] lg:border-2 border-[#eee2e2] bg-[#fcfbfb]">
-                <Image
-                  src={placeimg}
-                  className="hexagonhome-image  lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
-                  alt="homeimages"
-                />
-              </div>
-            </div>
+            <Jobsgallery />
           </div>
+
           <Footer />
-        </div>
+        </section>
+      </div>
     </>
   );
 }

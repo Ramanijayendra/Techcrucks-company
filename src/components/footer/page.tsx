@@ -1,7 +1,4 @@
 "use client";
-import { ProjectIcons } from "../icons/project";
-import { ConnectIcons } from "../icons/connect";
-import { CalenderIcons } from "../icons/calender";
 import Link from "next/link";
 
 export const Footerdata = [
@@ -20,9 +17,9 @@ export const Footerdata = [
         <path d="M50.57 56.72H46.08a.48.48 0 0 1-.49-.45l-.31-3.66a11.54 11.54 0 0 1-3-1.24l-2.82 2.38a.49.49 0 0 1-.66 0l-3.18-3.18a.48.48 0 0 1 0-.66L38 47.06a11.74 11.74 0 0 1-1.24-3l-3.66-.31a.49.49 0 0 1-.45-.49V38.8a.5.5 0 0 1 .45-.49L36.76 38A11.9 11.9 0 0 1 38 35l-2.37-2.82a.48.48 0 0 1 0-.66l3.18-3.17a.47.47 0 0 1 .66 0l2.82 2.37a11.51 11.51 0 0 1 3-1.23l.31-3.67a.49.49 0 0 1 .49-.45h4.49a.49.49 0 0 1 .49.45l.31 3.67a11.51 11.51 0 0 1 3 1.23l2.82-2.37a.47.47 0 0 1 .66 0L61 31.55a.48.48 0 0 1 0 .66L58.65 35a11.9 11.9 0 0 1 1.24 3l3.66.31a.5.5 0 0 1 .45.49v4.49a.49.49 0 0 1-.45.49l-3.66.31a11.74 11.74 0 0 1-1.24 3L61 49.88a.48.48 0 0 1 0 .66l-3.18 3.18a.49.49 0 0 1-.66 0l-2.82-2.38a11.54 11.54 0 0 1-3 1.24l-.31 3.66A.48.48 0 0 1 50.57 56.72zm-4-1h3.59l.3-3.57a.48.48 0 0 1 .38-.43 11 11 0 0 0 3.33-1.39.51.51 0 0 1 .58 0l2.74 2.31L60 50.17l-2.31-2.74a.5.5 0 0 1 0-.58A10.68 10.68 0 0 0 59 43.52a.5.5 0 0 1 .44-.38l3.57-.3V39.25L59.45 39a.5.5 0 0 1-.44-.38 10.68 10.68 0 0 0-1.38-3.33.51.51 0 0 1 0-.58L60 31.93l-2.53-2.54L54.71 31.7a.5.5 0 0 1-.58 0 10.68 10.68 0 0 0-3.33-1.38.5.5 0 0 1-.38-.44l-.3-3.56H46.53l-.3 3.56a.5.5 0 0 1-.38.44 10.68 10.68 0 0 0-3.33 1.38.5.5 0 0 1-.58 0L39.2 29.39l-2.53 2.54L39 34.66a.51.51 0 0 1 0 .58 10.68 10.68 0 0 0-1.38 3.33.5.5 0 0 1-.44.38l-3.57.3v3.59l3.57.3a.5.5 0 0 1 .44.38A10.68 10.68 0 0 0 39 46.85a.51.51 0 0 1 0 .58l-2.31 2.74L39.2 52.7l2.74-2.31a.51.51 0 0 1 .58 0 11 11 0 0 0 3.33 1.39.48.48 0 0 1 .38.43zm17-12.45h0zM12.15 57.09a.49.49 0 0 1-.35-.15L4.64 49.77A.49.49 0 0 1 5 48.93h7.17a.49.49 0 0 1 .49.49v7.17a.51.51 0 0 1-.3.46A.65.65 0 0 1 12.15 57.09zm-6-7.18l5.49 5.49V49.91z"></path>
       </svg>
     ),
-    title: "Project planner",
+    title: " PROJECT PLANNER",
     text: "Interested in working with us? Launch our proposal planner to get started.",
-    btn: "Launch it",
+    btn: "LAUNCH IT",
     linkdata: "/planner",
   },
   {
@@ -159,14 +156,14 @@ export const Footerdata = [
         </g>
       </svg>
     ),
-    title: "Connect",
+    title: "CONNECT",
     text: "hello@techcrucks.com",
+    btn: "CONTACT",
     linkdata: "/contact",
-    btn: "connect",
   },
   {
     id: 3,
-    logo: 
+    logo: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 64 64"
@@ -177,7 +174,8 @@ export const Footerdata = [
         <path d="M63.51 18H.49a.49.49 0 0 1 0-1h63a.49.49 0 0 1 0 1zm-53.3-5.68a2.92 2.92 0 0 1-2.88-3v-2.5a2.88 2.88 0 1 1 5.75 0v1.27a.49.49 0 0 1-1 0V6.82a1.9 1.9 0 1 0-3.79 0v2.54a1.94 1.94 0 0 0 1.9 2 .49.49 0 0 1 0 1zm10.89 0a2.93 2.93 0 0 1-2.88-3v-2.5a2.88 2.88 0 1 1 5.76 0v1.27a.49.49 0 0 1-1 0V6.82a1.9 1.9 0 1 0-3.79 0v2.54a1.94 1.94 0 0 0 1.89 2 .49.49 0 1 1 0 1zm10.9 0a2.92 2.92 0 0 1-2.88-3v-2.5a2.88 2.88 0 1 1 5.76 0v1.27a.5.5 0 0 1-1 0V6.82a1.89 1.89 0 1 0-3.78 0v2.54a1.94 1.94 0 0 0 1.89 2 .49.49 0 0 1 0 1zm10.9 0a2.92 2.92 0 0 1-2.88-3v-2.5a2.88 2.88 0 1 1 5.76 0v1.27a.5.5 0 0 1-1 0V6.82a1.9 1.9 0 1 0-3.79 0v2.54a1.94 1.94 0 0 0 1.9 2 .49.49 0 0 1 0 1zm10.89 0a2.92 2.92 0 0 1-2.87-3v-2.5a2.88 2.88 0 1 1 5.75 0v1.27a.49.49 0 1 1-1 0V6.82a1.9 1.9 0 1 0-3.79 0v2.54a1.94 1.94 0 0 0 1.89 2 .49.49 0 1 1 0 1zM51.78 30H12.22a.49.49 0 0 1 0-1h39.56a.49.49 0 0 1 0 1zm0 5.84H12.22a.49.49 0 0 1 0-1h39.56a.49.49 0 1 1 0 1zm0 5.88H12.22a.5.5 0 0 1 0-1h39.56a.5.5 0 0 1 0 1zM32 47.6H12.22a.5.5 0 0 1 0-1H32a.5.5 0 0 1 0 1z"></path>
         <path d="M51.11 55H5.51a.49.49 0 0 1-.51-.52V22.69a.49.49 0 0 1 .49-.49h53a.49.49 0 0 1 .49.49v24.42a.45.45 0 0 1-.15.34l-7.37 7.38a.5.5 0 0 1-.35.17ZM6 54h44.9l7.1-7.1V23.19H6Z"></path>
         <path d="M51.11 55a.49.49 0 0 1-.49-.49v-7.4a.49.49 0 0 1 .49-.5h7.37a.5.5 0 1 1 0 1H51.6v6.88a.49.49 0 0 1-.49.51Z"></path>
-      </svg>,
+      </svg>
+    ),
     title: " CALENDLY",
     text: "Schedule a time to talk to us and get things moving.",
     btn: "BOOK IN",
@@ -190,23 +188,23 @@ function page() {
 
   return (
     <>
-      <div className="container">
+      <footer>
         <div className="flex flex-col gap-8 p-6 justify-center lg:flex-row ">
           {Footerdata.map((value) => {
             return (
               <Link href={value.linkdata} className=" lg:w-1/4 " key={value.id}>
                 <div className="border-t-2 border-gray-400 ">
                   <div className="py-5 flex justify-center mt-5">
-                    <p className=" w-28 h-28  box  bg-[#d5d2d2] flex justify-center items-center  hover:bg-[#ee6557] hover:fill-[#efeeee] ">
+                    <p className="rounded-tl-[20px] rounded-br-[20px] p-9 bg-[#e7e7e7] flex justify-center items-center ">
                       {value.logo}
                     </p>
                   </div>
                   <h1 className="text-center text-xl h-6">{value.title}</h1>
-                  <p className="text-center text-gray-500 mt-4 h-12">
+                  <p className="text-center text-gray-500 mt-4 h-14">
                     {value.text}
                   </p>
                   <div className="py-5 text-center">
-                    <button type="button" className="inline-flex justify-center rounded-md  px-4 py-3 text-sm font-semibold text-white shadow  bg-[#ada9a9] hover:bg-[#ee6557] ">
+                    <button className="bg-[#0071e2] hover:bg-[#24b4fb] text-white  py-2.5 px-6 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                       {value.btn}
                     </button>
                   </div>
@@ -245,7 +243,7 @@ function page() {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 }

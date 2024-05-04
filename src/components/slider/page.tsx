@@ -11,7 +11,8 @@ const Tabs = () => {
   return (
 
     <>
-    <div className="">
+
+  <section>
     <div className="flex justify-center text-center mt-7 p-5">
 
     <div className="lg:w-8/12 lg:h-48" >
@@ -50,29 +51,29 @@ const Tabs = () => {
 
 
       <ul className="flex justify-center  gap-6 " id="myTab" role="tablist">
-        <li className={  `${  activeTab === "home" ? "border-[3px] border-[#ee6557]  " : "bg-[#c5c5c5] hover:bg-[#16a6b6] " } w-[35px] h-[35px] rounded-full cursor-pointer`} >
-          <button className="w-[35px] h-[35px]" onClick={() => handleTabChange("home")} role="tab" aria-controls="home-tab-pane" aria-selected={activeTab === "home" ? "true" : "false"} > </button>
+        <li className={  `${  activeTab === "home" ? "border-4 border-[#ee6557]  " : "bg-[#c5c5c5] hover:bg-[#16a6b6] " } w-8 h-8 rounded-full cursor-pointer`} >
+          <button className="w-8 h-8" onClick={() => handleTabChange("home")} role="tab" aria-controls="home-tab-pane" aria-selected={activeTab === "home" ? "true" : "false"} > </button>
         </li>
 
-        <li className={`${ activeTab === "profile" ? "border-2 border-[#ee6557] " : "bg-[#c5c5c5] hover:bg-[#16a6b6] "}  w-[35px] h-[35px] rounded-full cursor-pointer`} >
-            <button className=" w-[35px] h-[35px]" onClick={() => handleTabChange("profile")} role="tab" aria-controls="profile-tab-pane" aria-selected={activeTab === "profile" ? "true" : "false"}  >  </button>
+        <li className={`${ activeTab === "profile" ? "border-4 border-[#ee6557] " : "bg-[#c5c5c5] hover:bg-[#16a6b6] "}  w-8 h-8 rounded-full cursor-pointer`} >
+            <button className=" w-8 h-8" onClick={() => handleTabChange("profile")} role="tab" aria-controls="profile-tab-pane" aria-selected={activeTab === "profile" ? "true" : "false"}  >  </button>
         </li>
 
-        <li className={`${  activeTab === "contact" ? "border-2 border-[#ee6557] " : "bg-[#c5c5c5] hover:bg-[#16a6b6] " } w-[35px] h-[35px] rounded-full cursor-pointer`} >
-          <button className=" w-[35px] h-[35px]" onClick={() => handleTabChange("contact")} role="tab" aria-controls="contact-tab-pane" aria-selected={activeTab === "contact" ? "true" : "false"} >   </button>
+        <li className={`${  activeTab === "contact" ? "border-4 border-[#ee6557] " : "bg-[#c5c5c5] hover:bg-[#16a6b6] " } w-8 h-8 rounded-full cursor-pointer`} >
+          <button className=" w-8 h-8" onClick={() => handleTabChange("contact")} role="tab" aria-controls="contact-tab-pane" aria-selected={activeTab === "contact" ? "true" : "false"} >   </button>
         </li>
-        <li className={`${  activeTab === "blog" ? "border-2 border-[#ee6557] " : "bg-[#c5c5c5] hover:bg-[#16a6b6] " }  w-[35px] h-[35px] rounded-full cursor-pointer`} >
-          <button className=" w-[35px] h-[35px]" onClick={() => handleTabChange("blog")} role="tab" aria-controls="blog-tab-pane" aria-selected={activeTab === "blog" ? "true" : "false"} >   </button>
+        <li className={`${  activeTab === "blog" ? "border-4 border-[#ee6557] " : "bg-[#c5c5c5] hover:bg-[#16a6b6] " }  w-8 h-8 rounded-full cursor-pointer`} >
+          <button className=" w-8 h-8" onClick={() => handleTabChange("blog")} role="tab" aria-controls="blog-tab-pane" aria-selected={activeTab === "blog" ? "true" : "false"} >   </button>
         </li>
-        <li className={`${  activeTab === "about" ? "border-2 border-[#ee6557] " : "bg-[#c5c5c5] hover:bg-[#16a6b6] " }  w-[35px] h-[35px] rounded-full cursor-pointer`} >
-          <button className=" w-[35px] h-[35px]" onClick={() => handleTabChange("about")} role="tab" aria-controls="about-tab-pane" aria-selected={activeTab === "about" ? "true" : "false"} >   </button>
+        <li className={`${  activeTab === "about" ? "border-4 border-[#ee6557] " : "bg-[#c5c5c5] hover:bg-[#16a6b6] " }  w-8 h-8 rounded-full cursor-pointer`} >
+          <button className=" w-8 h-8" onClick={() => handleTabChange("about")} role="tab" aria-controls="about-tab-pane" aria-selected={activeTab === "about" ? "true" : "false"} >   </button>
         </li>
 
       </ul>
     </div>
 
     </div>
-    </div>
+    </section>
     </>
   );
 };
