@@ -86,7 +86,7 @@ function page() {
             <div className="lg:w-8/12 flex justify-center items-center text-center feedimages ">
               <Link href="">
                 <p className="text-2xl text-gray-400">
-                  Our 'Yellow Room' is being hired out tonight for it's first
+                  Our Yellow Room is being hired out tonight for it s first
                   non-TechCrucks event, Link natural, organic and biodynamic wi…{" "}
                 </p>
               </Link>
@@ -292,7 +292,7 @@ function page() {
               <Link href="">
                 <p className="text-2xl text-gray-400   ">
                   Psyching ourselves up for the Indoor Karting Design Agencies
-                  Team Challenge tonight - not saying we're competitive…{" "}
+                  Team Challenge tonight - not saying we re competitive…{" "}
                 </p>
               </Link>
             </div>

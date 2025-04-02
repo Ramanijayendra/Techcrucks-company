@@ -93,6 +93,8 @@ function page() {
           current_list === 3 ? (current_list = 4) : (current_list = 3);
 
           return (
+            <>
+           
             <div className="flex flex-col gap-7 justify-center items-center mt-8 lg:my-[-40px] lg:flex-row">
               {workgallery.slice(first, last).map((value) => {
                 return (
@@ -105,6 +107,7 @@ function page() {
                 );
               })}
             </div>
+            </>
           );
         })}
       </section>

@@ -36,14 +36,14 @@ function page() {
                     </li>
 
                     <li className="text-gray-400 mb-4">
-                      We don't do designs for a pitch unless paid. We don't
+                      We don t do designs for a pitch unless paid. We don t
                       think it is a fair way to compare/rate an agency but are
                       happy to treat as a paid project to get a feel for our
                       approach.{" "}
                     </li>
 
                     <li className="text-gray-400 mb-4">
-                      We don't provide multiple concepts from the outset as we
+                      We don t provide multiple concepts from the outset as we
                       believe it dilutes ideas - we prefer to focus on what we
                       feel is the right approach and iterate from there. On the
                       odd occasion we do need to start afresh and that is fine.

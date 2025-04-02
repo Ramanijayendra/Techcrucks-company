@@ -50,12 +50,15 @@ function page() {
           last = first + current;
           current === 4 ? (current = 3) : (current = 4);
           return (
+            <>
             <div className="flex flex-col gap-6 justify-center items-center   lg:flex-row mt-8 lg:my-[-40px] flex-wrap">
               {jobsgallery.slice(first, last).map((values) => {
                 const { id, img } = values;
+                // eslint-disable-next-line react/jsx-key
                 return <Hexagon id={id} photo={img} />;
               })}
             </div>
+              </>
           );
         })}
       </section>

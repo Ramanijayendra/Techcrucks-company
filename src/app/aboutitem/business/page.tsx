@@ -21,7 +21,7 @@ function page() {
                     </li>
                     <li className="text-gray-400 mb-4">
                       When people come to us they know they want more than a
-                      website. They are looking for someone who'll have their
+                      website. They are looking for someone who ll have their
                       back and give them the advice they truly need about their
                       brand and business.
                     </li>

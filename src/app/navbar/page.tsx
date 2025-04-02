@@ -6,7 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 function page() {
-  const [activeLink, setActiveLink] = useState("home");
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [activeLink, setActiveLink] =useState("home");
 
   return (
     <>

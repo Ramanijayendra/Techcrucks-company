@@ -24,7 +24,7 @@ function page() {
           <div className="flex justify-center p-4 ">
             <div className="shadow-md lg:w-1/2 p-4  bg-white text-center py-6">
               <p className="text-[16px] text-gray-500">
-                As we're currently working remotely, we're unable to support new
+                As we re currently working remotely, we re unable to support new
                 interns. We will reopen internships when we return to the
                 office. Please check back later.
               </p>
@@ -60,7 +60,7 @@ function page() {
                 <li className="mt-7">
                   You must have the relevant working permit or permissions to be
                   eligible for the position if you are from outside the UK. If
-                  English isn't your first language that is fine but you need to
+                  English isn t your first language that is fine but you need to
                   be conversant and be comfortable writing your code in English.
                 </li>
               </ul>
@@ -257,7 +257,7 @@ function page() {
                   <div className="flex flex-row  gap-3 mb-2">
                     <p className="w-2 h-2 rounded-full bg-[#e15339] mt-2"></p>
                     <p className="text-gray-400">
-                      Why's (Poignant) Guide to Ruby
+                      Why s (Poignant) Guide to Ruby
                     </p>
                   </div>
                   <div className="flex flex-row  gap-3 mb-2">
@@ -279,7 +279,7 @@ function page() {
           <div className="flex justify-center p-4 py-10 ">
             <div className="shadow-md lg:w-7/12 p-4  bg-white text-center py-6">
               <p className="text-[16px] text-gray-500">
-                As we're currently working remotely, we're unable to support new
+                As we re currently working remotely, we re unable to support new
                 interns. We will reopen internships when we return to the
                 office. Please check back later.
               </p>

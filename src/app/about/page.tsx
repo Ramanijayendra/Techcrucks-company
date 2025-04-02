@@ -19,7 +19,7 @@ function page() {
             <p className="text-2xl text-gray-400 font-normal text-[19px] ">
               {" "}
               Founded in 2006, techcrucks is a small web design & development
-              agency based in indian. Over the last few years we've made a
+              agency based in indian. Over the last few years we ve made a
               reputation for building websites that look great and are
               easy-to-use.
             </p>

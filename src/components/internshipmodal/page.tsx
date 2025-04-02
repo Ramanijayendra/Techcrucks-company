@@ -35,7 +35,7 @@ function page() {
     <>
 
 
-     <section>
+      <section>
         {internshipdata.map(() => {
           if (last > internshipdata.length - 1) {
             return;
@@ -45,21 +45,23 @@ function page() {
           current_list === 3 ? (current_list = 4) : (current_list = 3);
 
           return (
-            <div className="flex justify-center flex-col items-center gap-6 mt-5  lg:flex-row lg:mt-[-50px] ">
-              {internshipdata.slice(frist, last).map((values) => {
-                return (
+            <>
+              <div className="flex justify-center flex-col items-center gap-6 mt-5  lg:flex-row lg:mt-[-50px] ">
+                {internshipdata.slice(frist, last).map((values) => {
+                  return (
 
 
-                  <Hexagonabout 
-                   id={values.id}
-                   key={values.id}
-                  />
-                );
-              })}
-            </div>
+                    <Hexagonabout
+                      id={values.id}
+                      key={values.id}
+                    />
+                  );
+                })}
+              </div>
+            </>
           );
         })}
-     </section>
+      </section>
 
 
     </>

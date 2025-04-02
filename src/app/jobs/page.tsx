@@ -20,7 +20,7 @@ function page() {
             <p className="text-[19px] py-5 text-gray-400">
               We will give you a chance to work on some great projects and
               develop your skills in exchange for dedication in doing what you
-              love. You will join a culture that doesn't obsess about how many
+              love. You will join a culture that doesn t obsess about how many
               days holiday you have left and rewards people for their efforts.
             </p>
             <p className="text-[19px] mb-5 text-gray-400">
@@ -31,7 +31,7 @@ function page() {
             </p>
             <p className="text-[19px] mb-5 text-gray-400">
               We also provide things like a Mac, nice Aeron chair, iPhone and
-              anything else you need to do the job. We use Macs, but you'll be
+              anything else you need to do the job. We use Macs, but you ll be
               free to use whatever you want to get the job done.
             </p>
 
@@ -40,10 +40,10 @@ function page() {
                 <p className="flex justify-center  border-t-2 border-gray-400 w-28"></p>
               </div>
               <p className="py-4 text-center text-[23px] text-gray-500">
-                WE'RE ALL GOOD RIGHT NOW
+                WE RE ALL GOOD RIGHT NOW
               </p>
               <p className="text-[17px] text-gray-500 text-center">
-                However, if you think you're just that good, get in touch. We're
+                However, if you think you re just that good, get in touch. We re
                 always looking for awesome new people to work with.
               </p>
             </div>
@@ -62,7 +62,7 @@ function page() {
                 </div>
                 <div className="flex justify-center mt-5">
                   <h1 className=" text-[16px] ">
-                    SERIOUSLY, DON'T EVEN BOTHER{" "}
+                    SERIOUSLY, DON T EVEN BOTHER{" "}
                   </h1>
                 </div>
               </div>

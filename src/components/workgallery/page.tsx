@@ -118,6 +118,7 @@ function page() {
 
           current_count === 3 ? (current_count = 4) : (current_count = 3);
           return (
+            <>
             <div className="flex flex-col gap-7 justify-center items-center mt-8 lg:my-[-40px] lg:flex-row">
               {Imagesgallery.slice(start, end).map((value) => {
                 return (
@@ -129,6 +130,7 @@ function page() {
                 );
               })}
             </div>
+            </>
           );
         })}
       </section>

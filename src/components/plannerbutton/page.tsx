@@ -37,44 +37,46 @@ export const plannerdata = [
 
 function page() {
 
-  var first=0;
-  var last =0;
+  var first = 0;
+  var last = 0;
   var currvalues = 3;
 
   return (
     <>
 
-    {
-      plannerdata.map(()=>{
-        if(last > plannerdata.length -1){
-          return;
-        }
-        first = last;
-        last = first + currvalues;
-        currvalues === 3 ? (currvalues=3):(currvalues = 3)
-        return(
-          <div className="flex flex-col gap-6 justify-center items-center flex-wrap py-2 lg:flex-row p-6">
-            {
-              plannerdata.slice(first , last).map((value)=>{
-                return(
-                  <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 " key={value.id}>
-                  <span className="tooltiptext absolute bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700  text-white opacity-0 ">
-                    <div className="p-4 text-[17px] ">
-                      <p>
-                      {value.text}
-                      </p>
-                    </div>
-                  </span>
-  
-                 <Lgbutton title={value.title} />
-                </div>
-                )
-              })
-            }
-          </div>
-        )
-      })
-    }
+      {
+        plannerdata.map(() => {
+          if (last > plannerdata.length - 1) {
+            return;
+          }
+          first = last;
+          last = first + currvalues;
+          currvalues === 3 ? (currvalues = 3) : (currvalues = 3)
+          return (
+            <>
+              <div className="flex flex-col gap-6 justify-center items-center flex-wrap py-2 lg:flex-row p-6">
+                {
+                  plannerdata.slice(first, last).map((value) => {
+                    return (
+                      <div className="tooltip text-center w-72 relative cursor-pointer  hover:z-20 " key={value.id}>
+                        <span className="tooltiptext absolute bg-gradient-to-br from-blue-600 via-purple-600 to-pink-700  text-white opacity-0 ">
+                          <div className="p-4 text-[17px] ">
+                            <p>
+                              {value.text}
+                            </p>
+                          </div>
+                        </span>
+
+                        <Lgbutton title={value.title} />
+                      </div>
+                    )
+                  })
+                }
+              </div>
+            </>
+          )
+        })
+      }
 
     </>
   );

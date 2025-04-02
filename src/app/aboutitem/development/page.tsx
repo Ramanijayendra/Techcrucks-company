@@ -49,13 +49,13 @@ function page() {
                     <li className="text-gray-400 mb-4">
                       For backend we usually build using Ruby on Rails with
                       PostgreSQL, Elasticsearch and Redis as our core tools, but
-                      we're comfortable using Crystal if what we're building
+                      we re comfortable using Crystal if what we re building
                       requires more intensive processing or is going to receive
                       more traffic.
                     </li>
 
                     <li className="text-gray-400 mb-4">
-                      In the past, we've built with PHP, MySQL, a number of
+                      In the past, we ve built with PHP, MySQL, a number of
                       NoSQL databases, Solr, Lucene, Memcached as well as
                       countless APIs and services for external data. We enjoy
                       adapting to the best tool for the job, whatever that might

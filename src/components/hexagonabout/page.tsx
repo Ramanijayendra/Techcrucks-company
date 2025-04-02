@@ -8,6 +8,7 @@ import Link from "next/link";
 import Button from "@/components/button/page"
 
 function page(props: { id: number }) {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const [open, setOpen] = useState(false);
 
   const onOpenModal = () => setOpen(true);

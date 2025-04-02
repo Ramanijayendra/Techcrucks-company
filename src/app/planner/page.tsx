@@ -6,13 +6,7 @@ import Lgbutton from "@/components/lgbutton/page";
 import Button from "@/components/button/page";
 
 function page() {
-  // const handlesubmit = (event) => {
-  //   event.preventDefault();
-  //   let form = new FormData(event.target);
-  //   let formobject = Object.fromEntries(form.entries());
-  //   console.log(formobject);
-  // };
-  // onSubmit={handlesubmit}
+ 
   return (
     <>
       <div className="container">

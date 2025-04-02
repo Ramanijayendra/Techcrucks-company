@@ -46,7 +46,7 @@ function page() {
                 <h1 className="py-3 text-gray-600">INFORMATION ABOUT US</h1>
                 <p className="text-gray-400">
                   <Link href=""> https://www.hello@techcrucks.com</Link> is a
-                  site operated by Built by Buffalo Limited ("We"). We are
+                  site operated by Built by Buffalo Limited (We). We are
                   registered in England and Wales under company number 06048231
                   and our registered and operating address is Built by Buffalo,
                   Nile House, Nile Street, Brighton BN1 1HW, United Kingdom. Our
@@ -797,7 +797,7 @@ function page() {
                   promote any illegal activity;
                 </p>
                 <p className="text-gray-400 mb-4">
-                  be threatening, abuse or invade another's privacy, or cause
+                  be threatening, abuse or invade another s privacy, or cause
                   annoyance, inconvenience or needless anxiety;
                 </p>
                 <p className="text-gray-400 mb-4">

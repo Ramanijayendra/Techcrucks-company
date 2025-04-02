@@ -77,13 +77,15 @@ function Page() {
         current_list === 3 ? (current_list = 4) : (current_list = 3);
 
         return (
-          <div className="flex flex-col gap-6 justify-center items-center mt-8 lg:my-[-40px] lg:flex-row">
-            {Imagesgallery.slice(first, last).map((value) => {
-              return (
-                <Hexagonhome id={value.id}  img={value.img} key={value.id} />
-              );
-            })}
-          </div>
+          <>
+            <div className="flex flex-col gap-6 justify-center items-center mt-8 lg:my-[-40px] lg:flex-row">
+              {Imagesgallery.slice(first, last).map((value) => {
+                return (
+                  <Hexagonhome id={value.id} img={value.img} key={value.id} />
+                );
+              })}
+            </div>
+          </>
         );
       })}
     </>
