@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 
 import Image from "next/image";
-import placeimg from "/images/placeholder/300x300.svg";
 import Link from "next/link";
 import Modal from "react-responsive-modal";
 import Button from "@/components/button/page";
@@ -56,7 +55,7 @@ export const Internshipdata = [
       "Experienced in database design, object oriented programming and front end coding he combines these with an eye for design and a love of photography.",
     fourtext:
       "You will understand version control and ideally our preference - git.",
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 2,
@@ -119,7 +118,7 @@ export const Internshipdata = [
     thrtext:
       "You can ideally write Sass over vanilla CSS. If you write Javascript then we mean really write it rather than using a plugin. You can also understand git and have browser testing experience.",
     fourtext: "",
-    img: placeimg,
+    img: "/images/placeholder/300x300.svg",
   },
   {
     id: 3,
@@ -206,7 +205,7 @@ export const Internshipdata = [
       " Experienced in database design, object oriented programming and front end coding he combines these with an eye for design and a love of photography.",
     fourtext:
       " You will understand version control and ideally our preference - git.",
-    img: placeimg,
+    img: "/images/placeholder/300x300.svg",
   },
 ];
 
@@ -250,9 +249,11 @@ function page() {
                   </div>
                   <div className="mt-10">
                     <Image
-                      src={placeimg}
+                      src={"/images/placeholder/300x300.svg"}
                       className="w-full "
                       alt="homeimages"
+                      width={"100"}
+                      height={"100"}
                     />
                   </div>
                 </div>
