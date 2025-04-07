@@ -1,25 +1,25 @@
 import Image from "next/image";
 import React from "react";
 import Footer from "@/components/footer/page";
-import Button from "@/components/button/page"
+import Button from "@/components/button/page";
 
-function page() {
+function Page() {
   return (
     <>
       <div className="container">
         <section>
-          <div className="flex flex-col justify-center gap-7 p-5 lg:flex-row py-4 ">
-            <div className=" lg:w-11/12">
+          <div className="flex flex-col justify-center gap-7 p-5 lg:flex-row py-4">
+            <div className="lg:w-11/12">
               <Image
-                src={"/images/placeholder/1200x650.svg"}
+                src="/images/placeholder/1200x650.svg"
                 className="w-full h-full"
                 alt="boneimages"
-                width={"100"}
-                height={"100"}
+                width={1200}
+                height={650}
               />
             </div>
 
-            <div className="lg:w-3/12 lg:text-start text-center text-gray-400 ">
+            <div className="lg:w-3/12 lg:text-start text-center text-gray-400">
               <h1 className="text-3xl font-bold mb-5 text-black">Work item</h1>
               <p className="mb-5">
                 Growing from their initial roots in Southampton 7Bone have grown
@@ -42,20 +42,20 @@ function page() {
                 <li className="py-2">Backend Development</li>
               </ul>
               <div className="mt-5">
-               <Button title=" VIEW LIVE SITE" />
+                <Button title="VIEW LIVE SITE" />
               </div>
             </div>
           </div>
         </section>
 
         <section>
-          <div className="flex justify-center p-5 lg:justify-start mb-14 ">
+          <div className="flex justify-center p-5 lg:justify-start mb-14">
             <Image
-              src={"/images/placeholder/900x1500.svg"}
+              src="/images/placeholder/900x1500.svg"
               className="lg:w-7/12 w-full h-full"
               alt="boneimages"
-              width={"100"}
-              height={"100"}
+              width={900}
+              height={1500}
             />
           </div>
           <Footer />
@@ -65,4 +65,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
