@@ -1,103 +1,102 @@
 import React from "react";
-import placeimg from "/images/placeholder/300x300.svg";
 import Hexagonwork from "@/components/hexagonwork/page";
 
 export const Imagesgallery = [
   {
     id: 1,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 2,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 3,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 4,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 5,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 6,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 7,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 8,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 9,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 10,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 11,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 12,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 13,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 14,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 15,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 16,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 17,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 18,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 19,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 20,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 21,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 22,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 23,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
   },
   {
     id: 24,
-    img: placeimg
+    img:"/images/placeholder/300x300.svg"
     },
 ];
 

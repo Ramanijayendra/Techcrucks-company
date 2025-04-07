@@ -1,37 +1,34 @@
 import React from "react";
-
-import placeimg from "/images/placeholder/300x300.svg";
-
 import Hexagon from "@/components/hexagon/page";
 
 export const jobsgallery = [
   {
     id: 1,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 2,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 3,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 4,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 5,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 6,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 7,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
 ];
 

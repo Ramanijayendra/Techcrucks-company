@@ -12,6 +12,8 @@ function page(props: { id: number; photo: string }) {
           src={props.photo}
           className="hexagonhome-image lg:absolute h-[100%] w-[100%] lg:bg-[white] "
           alt="homeimages"
+          width={"100"}
+          height={"100"}
         />
       </div>
     </>

@@ -1,76 +1,75 @@
 import React from "react";
-import placeimg from "/public/images/placeholder/250.svg";
 import Hexagonworkone from "@/components/hexagonworkone/page";
 
 export const workgallery = [
   {
     id: 1,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 2,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 3,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 4,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 5,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 6,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 7,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 8,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 9,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 10,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 11,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 12,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 13,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
   {
     id: 14,
-    img: placeimg,
+    img:"/images/placeholder/250.svg",
     linkdata: "https://brightonsource.co.uk",
   },
 ];

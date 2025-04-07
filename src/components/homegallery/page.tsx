@@ -1,62 +1,61 @@
-import placeimg from "/images/placeholder/300x300.svg";
 import Hexagonhome from "@/components/hexagonhome/page";
 
 export const Imagesgallery = [
   {
     id: 1,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 2,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 3,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 4,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 5,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 6,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 7,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 8,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 9,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 10,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 11,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 12,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 13,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
   {
     id: 14,
-    img: placeimg,
+    img:"/images/placeholder/300x300.svg",
   },
 ];
 
@@ -81,7 +80,7 @@ function Page() {
             <div className="flex flex-col gap-6 justify-center items-center mt-8 lg:my-[-40px] lg:flex-row">
               {Imagesgallery.slice(first, last).map((value) => {
                 return (
-                  <Hexagonhome id={value.id} img={value.img} key={value.id} />
+                  <Hexagonhome id={value.id} img={value.img} key={value.id}  />
                 );
               })}
             </div>
