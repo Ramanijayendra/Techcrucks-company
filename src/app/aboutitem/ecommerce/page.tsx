@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "@/components/footer/page";
-import placeimg from "/public/images/placeholder/300x300.svg";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@/components/button/page"
@@ -80,9 +79,11 @@ function page() {
             <div className="contact-carts hexagonhome-container relative w-[100%] lg:w-[250px] lg:h-[270px] lg:border-2 border-[#eee2e2] bg-[#df3e3e]">
               <Link href="/homeitem/undercover">
                 <Image
-                  src={placeimg}
+                  src={"/images/placeholder/300x300.svg"}
                   className="hexagonhome-image images-carts block w-[100%]  lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
                   alt="homeimages"
+                  width={"100"}
+                  height={"100"}
                 />
                 <div className="overlay-carts absolute top-0 bottom-0 left-0  right-0  w-[100%] h-[100%] opacity-0 bg-[#db390d]">
                   <div className="text-carts text-center  text-white top-[50%]  left-[50%] absolute ">
@@ -95,9 +96,11 @@ function page() {
             <div className="contact-carts hexagonhome-container relative w-[100%] lg:w-[250px] lg:h-[270px] lg:border-2 border-[#eee2e2] bg-[#df3e3e]">
               <Link href="/workitem/mason">
                 <Image
-                  src={placeimg}
+                  src={"/images/placeholder/300x300.svg"}
                   className="hexagonhome-image images-carts block w-[100%]  lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
                   alt="homeimages"
+                  width={"100"}
+                  height={"100"}
                 />
                 <div className="overlay-carts absolute top-0 bottom-0 left-0  right-0  w-[100%] h-[100%] opacity-0 bg-[#db390d]">
                   <div className="text-carts text-center  text-white top-[50%]  left-[50%] absolute ">

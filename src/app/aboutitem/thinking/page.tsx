@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../../../components/footer/page";
-import placeimg from "/public/images/placeholder/300x300.svg";
 import Image from "next/image";
 import Button from "@/components/button/page"
 
@@ -44,7 +43,7 @@ function page() {
                 </div>
 
                 <div className="lg:w-11/12 lg:mt-10">
-                  <Image src={placeimg} className=" " alt="desingimages" />
+                  <Image src={"/images/placeholder/300x300.svg"}  width={"100"} height={"100"} alt="desingimages" />
                 </div>
               </div>
             </div>

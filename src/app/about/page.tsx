@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 
 import Footer from "@/components/footer/page";
-import placeimg from "/public/images/placeholder/300x300.svg";
 import Link from "next/link";
 import Sectionone from "@/components/section/page";
 import Modalslider from "@/components/modal/page";
@@ -103,8 +102,10 @@ function page() {
             <div className="contact-carts hexagonhome-container relative w-[100%] lg:w-[260px] lg:h-[290px] lg:border-2 border-[#eee2e2] bg-[#df3e3e]">
               <Link href="https://www.awfulgood.co.uk/">
                 <Image
-                  src={placeimg}
+                  src={"/images/placeholder/300x300.svg"}
                   className="hexagonhome-image images-carts block w-[100%]  lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
+                  width={"100"}
+                  height={"100"}
                   alt="homeimages"
                 />
                 <div className="overlay-carts absolute top-0 bottom-0 left-0  right-0  w-[100%] h-[100%] opacity-0 bg-[#db390d]">
@@ -124,8 +125,10 @@ function page() {
             <div className="contact-carts hexagonhome-container relative w-[100%] lg:w-[260px] lg:h-[290px] lg:border-2 border-[#eee2e2] bg-[#df3e3e]">
               <Link href="https://www.djgbradley.com/">
                 <Image
-                  src={placeimg}
+                  src={"/images/placeholder/300x300.svg"}
                   className="hexagonhome-image images-carts block w-[100%]  lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
+                  width={"100"}
+                  height={"100"}
                   alt="homeimages"
                 />
                 <div className="overlay-carts absolute top-0 bottom-0 left-0  right-0  w-[100%] h-[100%] opacity-0 bg-[#db390d]">

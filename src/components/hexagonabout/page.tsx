@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import Image from "next/image";
-import placeusers from "/public/images/placeholder/user.jpg";
 import Link from "next/link";
 import Button from "@/components/button/page"
 
@@ -20,9 +19,11 @@ function page(props: { id: number }) {
         <Link href="" onClick={onOpenModal}>
           <div className="contact-carts hexagonhome-container relative  lg:w-[260px] lg:h-[290px] lg:border-2 border-[#eee2e2] bg-[#16a6b6]">
             <Image
-              src={placeusers}
+              src={"/images/placeholder/user.jpg"}
               className="hexagonhome-image images-carts block   lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
               alt="homeimages"
+              width={"100"}
+              height={"100"}
               onClick={onOpenModal}
             />
             <div className="overlay-carts absolute top-0 bottom-0 left-0  right-0  w-[100%] h-[100%] opacity-0 bg-[#16a6b6]">
@@ -69,8 +70,10 @@ function page(props: { id: number }) {
               <div className="hexagonhome-container lg:relative lg:w-[230px] lg:h-[240px] lg:border-2 border-[#eee2e2] bg-[#fcfbfb]">
                 {" "}
                 <Image
-                  src={placeusers}
+                  src={"/images/placeholder/user.jpg"}
                   className="hexagonhome-image lg:absolute lg:w-[100%] lg:h-[100%] lg:text-center lg:bg-[white] "
+                  width={"100"}
+                  height={"100"}
                   alt="homeimages"
                 />
               </div>
