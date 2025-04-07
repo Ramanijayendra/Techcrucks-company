@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import Image from "next/image";
-import placeimg from "/public/images/placeholder/300x300.svg";
+import placeimg from "/images/placeholder/300x300.svg";
 import Link from "next/link";
 import Modal from "react-responsive-modal";
 import Button from "@/components/button/page";

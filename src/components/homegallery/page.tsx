@@ -1,4 +1,4 @@
-import placeimg from "/public/images/placeholder/300x300.svg";
+import placeimg from "/images/placeholder/300x300.svg";
 import Hexagonhome from "@/components/hexagonhome/page";
 
 export const Imagesgallery = [

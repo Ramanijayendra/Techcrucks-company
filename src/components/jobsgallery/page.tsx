@@ -1,6 +1,6 @@
 import React from "react";
 
-import placeimg from "/public/images/placeholder/300x300.svg";
+import placeimg from "/images/placeholder/300x300.svg";
 
 import Hexagon from "@/components/hexagon/page";
 
