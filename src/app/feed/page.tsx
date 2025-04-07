@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import placeimage from "/public/images/placeholder/backphoto-.jpg";
 import Footer from "@/components/footer/page";
 import Link from "next/link";
 import Button from "@/components/button/page";
@@ -39,13 +38,13 @@ function page() {
             <div className="flex flex-col justify-center gap-6 items-center lg:flex-row ">
               <div className="lg:w-1/2 w-full">
                 <Link href="">
-                  <Image src={placeimage} alt="feedimagees" />
+                  <Image src={"/images/placeholder/backphoto-.jpg"} width={"100"} height={"100"} alt="feedimagees" />
                 </Link>
               </div>
 
               <div className="lg:w-1/2 w-full">
                 <Link href="">
-                  <Image src={placeimage} alt="feedimagees" />
+                  <Image src={"/images/placeholder/backphoto-.jpg"} width={"100"} height={"100"} alt="feedimagees" />
                 </Link>
               </div>
             </div>
@@ -121,13 +120,13 @@ function page() {
             <div className="flex flex-col justify-center gap-6 items-center lg:flex-row">
               <div className="lg:w-1/2 w-full">
                 <Link href="">
-                  <Image src={placeimage} alt="feedimagees" />
+                  <Image src={"/images/placeholder/backphoto-.jpg"} width={"100"} height={"100"} alt="feedimagees" />
                 </Link>
               </div>
 
               <div className="lg:w-1/2 w-full">
                 <Link href="">
-                  <Image src={placeimage} alt="feedimagees" />
+                  <Image src={"/images/placeholder/backphoto-.jpg"} width={"100"} height={"100"} alt="feedimagees" />
                 </Link>
               </div>
             </div>
@@ -161,13 +160,13 @@ function page() {
             <div className="flex flex-col justify-center gap-6 items-center lg:flex-row ">
               <div className="lg:w-1/2 w-full">
                 <Link href="">
-                  <Image src={placeimage} alt="feedimagees" />
+                  <Image src={"/images/placeholder/backphoto-.jpg"} width={"100"} height={"100"} alt="feedimagees" />
                 </Link>
               </div>
 
               <div className="lg:w-1/2 w-full">
                 <Link href="">
-                  <Image src={placeimage} alt="feedimagees" />
+                  <Image src={"/images/placeholder/backphoto-.jpg"} width={"100"} height={"100"} alt="feedimagees" />
                 </Link>
               </div>
             </div>
@@ -244,13 +243,13 @@ function page() {
             <div className="flex flex-col justify-center gap-6 items-center lg:flex-row ">
               <div className="lg:w-1/2 w-full">
                 <Link href="">
-                  <Image src={placeimage} alt="feedimagees" />
+                  <Image src={"/images/placeholder/backphoto-.jpg"} width={"100"} height={"100"} alt="feedimagees" />
                 </Link>
               </div>
 
               <div className="lg:w-1/2 w-full">
                 <Link href="">
-                  <Image src={placeimage} alt="feedimagees" />
+                  <Image src={"/images/placeholder/backphoto-.jpg"} width={"100"} height={"100"} alt="feedimagees" />
                 </Link>
               </div>
             </div>

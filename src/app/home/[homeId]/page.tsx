@@ -1,8 +1,5 @@
 import Image from "next/image";
 import React from "react";
-
-import boneimages from "/public/images/placeholder/1200x650.svg";
-import gallery from "/public/images/placeholder/900x1500.svg";
 import Footer from "@/components/footer/page";
 import Button from "@/components/button/page"
 
@@ -15,9 +12,11 @@ function page() {
           <div className="flex flex-col justify-center gap-7 p-5 lg:flex-row py-4 ">
             <div className=" lg:w-11/12">
               <Image
-                src={boneimages}
+                src={"/images/placeholder/1200x650.svg"}
                 className="w-full h-full"
                 alt="boneimages"
+                width={"100"}
+                height={"100"}
               />
             </div>
 
@@ -53,9 +52,11 @@ function page() {
         <section>
           <div className="flex justify-center p-5 lg:justify-start mb-14 ">
             <Image
-              src={gallery}
+              src={"/images/placeholder/900x1500.svg"}
               className="lg:w-7/12 w-full h-full"
               alt="boneimages"
+              width={"100"}
+              height={"100"}
             />
           </div>
           <Footer />
