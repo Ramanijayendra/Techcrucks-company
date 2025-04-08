@@ -25,7 +25,7 @@ function page() {
               <p className="flex justify-center  border-t-2 border-gray-400 w-28"></p>
             </div>
             <p className="py-4 text-center text-[23px] text-gray-500">
-              SOME PEOPLE WE'VE WORKED WITH
+              SOME PEOPLE WE VE WORKED WITH
             </p>
           </div>
           <Gallery />
