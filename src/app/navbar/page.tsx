@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-
+import logo from "/public/images/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -15,7 +15,7 @@ function page() {
           <div className="py-12  ">
             <p className="flex justify-center mt-4  lg:hidden ">
               <Link href="">
-                <Image src={"/images/logo.svg"} alt="navbar-images" width={"100"} height={"100"} className="w-40  h-40" />{" "}
+                <Image src={logo} alt="navbar-images" width={"100"} height={"100"} className="w-40  h-40" />{" "}
               </Link>
             </p>
 
@@ -63,7 +63,7 @@ function page() {
                 <li className=" logoitem order-4  hidden lg:block">
                   <Link href="">
                     <Image
-                      src={"/images/logo.svg"}
+                      src={logo}
                       alt="navbar-images"
                       width={"100"} height={"100"}
                       className="w-40 h-36"
